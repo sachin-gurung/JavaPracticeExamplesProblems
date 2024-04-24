@@ -9,7 +9,7 @@ public class NumberPyramid {
         System.out.print("Please enter an integer: ");
         int input = scnr.nextInt();
 
-        int space = input + 4 - 1;
+        int space = input - 1;
 
         for(int i = 1; i <= input; i++){
 
